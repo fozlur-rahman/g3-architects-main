@@ -1,56 +1,72 @@
-:root{
-    --primary-color:#727272;
-    --orange : #FF900E;
+:root {
+    --primary-color: #727272;
+    --orange: #FF900E;
 }
 
 
 
 
 /* custon css class ------------------------------------------------- */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-p{
+
+p {
     font-size: 16px;
+    line-height: 26px;
     color: var(--primary-color);
 }
+
 h2 {
     font-size: 45px;
 }
+
 .container {
     width: 75%;
     margin: 0 auto;
 }
+
 .btn {
- padding: 20px 25px;
- font-size: 20px;
- color: white;
- border: 0;
- border-radius: 8px;
-  background: var(--orange);  
+    padding: 20px 25px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    background: var(--orange);
+    margin: 30px 0;
 }
+
 /* custon css class -------------------------------------------------*/
 
 
 /* header section start ---------------------------------------------- */
+#header {
+    background: #FFF4E7;
+    padding-bottom: 45px;
+}
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
 }
-.logo h1 {
+
+.logo h2 {
     font-size: 45px;
     font-weight: 700;
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
 }
+
 .menu li {
     margin: 20px;
 }
+
 .menu li a {
     text-decoration: none;
     padding: 10px 5px;
@@ -58,4 +74,84 @@ h2 {
     font-size: 18px;
     color: #424242;
 }
-/* header section end */
+
+
+.header-top {
+    text-align: center;
+}
+
+.header-top h1 {
+    font-size: 64px;
+}
+
+/* header section end---------------------------------------------- */
+
+/* featutres section css  ------------------------------------------*/
+.features-container {
+    display: flex;
+    padding: 70px 0;
+}
+
+.features-gallery img {
+    margin: 5px;
+}
+
+.features-deatils {
+    height: 360px;
+    width: 80%;
+    margin: auto 0;
+    
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.orange {
+    color: var(--orange);
+}
+/* featutres section css  -------------------------------------------*/
+
+/* expreince section css  */
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.experience-deatils {
+    width: 40%;
+}
+.experience-deatils h2 {
+    border-left: 4px solid var(--orange);
+    padding-left: 20px;
+}
+.exp-item {
+padding:10px 30px;
+margin: 20px 0;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgb(173, 174, 175);
+}
+.experience-img{
+    width: 50%;
+    position: relative;
+}
+
+.experience-tab {
+    background: var(--orange);
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: -90px;
+}
+.experience-tab h1 {
+    font-size: 55px;
+    color: #FFF4E7;
+    margin: 0;
+}
+.experience-tab p {
+    color: #FFF4E7;
+}
+/* expreince section css  */
