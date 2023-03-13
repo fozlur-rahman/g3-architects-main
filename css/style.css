@@ -100,7 +100,7 @@ h2 {
     height: 360px;
     width: 80%;
     margin: auto 0;
-    
+
 }
 
 .primary {
@@ -110,28 +110,33 @@ h2 {
 .orange {
     color: var(--orange);
 }
+
 /* featutres section css  -------------------------------------------*/
 
-/* expreince section css  */
+/* expreince section css  --------------------------------------------*/
 .experience-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 100px 0;
 }
+
 .experience-deatils {
     width: 40%;
 }
+
 .experience-deatils h2 {
     border-left: 4px solid var(--orange);
     padding-left: 20px;
 }
+
 .exp-item {
-padding:10px 30px;
-margin: 20px 0;
-border-radius: 8px;
-box-shadow: 0px 0px 10px rgb(173, 174, 175);
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(227, 227, 228);
 }
-.experience-img{
+
+.experience-img {
     width: 50%;
     position: relative;
 }
@@ -140,18 +145,41 @@ box-shadow: 0px 0px 10px rgb(173, 174, 175);
     background: var(--orange);
     width: 50%;
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0;
     border-radius: 8px;
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     left: -90px;
 }
+
 .experience-tab h1 {
     font-size: 55px;
     color: #FFF4E7;
     margin: 0;
 }
+
 .experience-tab p {
     color: #FFF4E7;
 }
-/* expreince section css  */
+
+/* expreince section css ---------------------------------------------- */
+.facts-container {
+    padding: 50px 0;
+}
+.facts-container h2 {
+    margin: 0;
+}
+.facts-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.fact-item {
+    width: 20%;
+    border: 1px solid var(--orange);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+
+}
+/* expreince section css ---------------------------------------------- */
