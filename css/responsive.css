@@ -92,6 +92,29 @@
     }
     /* expreince section */
 
+    /* facts section css ---------------------- */
+    .facts-container {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .facts-items {
+        display: block;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .fact-item {
+        width: 100%;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgb(224, 223, 223);
+        border: 0;
+    }
+    .fact-item:hover{
+        border: 1px solid #FF900E;
+        box-shadow: none;
+        transition: .25s;
+    }
+    /* facts section css ---------------------- */
+
 
 
 
