@@ -32,12 +32,13 @@
     }
     .menu {
         display: block;
+        padding-left: 0;
     }
     .menu li {
-        margin: 12px;
+        margin: 12px 0;
     }
     .menu li a {
-        padding: 10px 5px;
+        padding: 0px 5px;
         font-size: 12px;
     }
     .header-top h1 {
