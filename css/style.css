@@ -166,14 +166,17 @@ h2 {
 .facts-container {
     padding: 50px 0;
 }
+
 .facts-container h2 {
     margin: 0;
 }
+
 .facts-items {
     display: flex;
     justify-content: space-around;
     margin: 100px 0;
 }
+
 .fact-item {
     width: 20%;
     border: 1px solid var(--orange);
@@ -182,4 +185,23 @@ h2 {
     border-radius: 8px;
 
 }
+
 /* expreince section css ---------------------------------------------- */
+
+/* sponspors section css  ----------------------------------------------*/
+
+.sponspors-container{
+    text-align: center;
+    /* padding: ; */
+}
+.spon-companis {
+    display: flex;
+    justify-content: space-between;
+    color: #727272;
+    margin-top: 70px;
+}
+.spon-companis img {
+    
+    filter: grayscale(100%);
+}
+/* sponspors section css  ----------------------------------------------*/
