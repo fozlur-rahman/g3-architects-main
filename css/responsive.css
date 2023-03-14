@@ -48,4 +48,21 @@
         width: 100%;
     }
     /* header section end */
+
+    /* features section */
+    .features-container {
+        display: block;
+    }
+    .features-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .features-gallery img {
+        width: 100%;
+    }
+    .features-deatils {
+        height: 100%;
+    }
+    /* features section */
 }
