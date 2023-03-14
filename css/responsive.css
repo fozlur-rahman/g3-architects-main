@@ -65,4 +65,41 @@
         height: 100%;
     }
     /* features section */
+
+    /* expreince section */
+
+    .experience-container {
+        padding: 0;
+        display: block;
+    }
+    .experience-deatils {
+        width: 100%;
+    }
+    .experience-img  {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .experience-img img {
+        width: 100%;
+    }
+    .experience-tab{
+        height: 5%;
+        top: -50px;
+        left: -50px;
+    }
+    .experience-tab h1 {
+        font-size: 20px;
+    }
+    /* expreince section */
+
+
+
+
+
+
+
+
+
+
+
 }
