@@ -185,7 +185,22 @@ h2 {
     text-align: center;
     padding: 30px 0;
     border-radius: 8px;
+    transition: .5s;
+    overflow: hidden;
 
+}
+.fact-item:hover h2{
+    border: 0;
+    box-shadow: 0 0 10px rgb(214, 214, 214);
+    transform: rotate(360deg);
+    transition: .75s;
+    color: var(--orange);
+}
+.fact-item:hover{
+    border: 0;
+    box-shadow: 0 0 10px rgb(214, 214, 214);
+    transform: scale(1.4);
+    transition: .75s;
 }
 /* facts section css ---------------------- */
 

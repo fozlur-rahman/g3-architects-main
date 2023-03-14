@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and ( max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 
     p {
         font-size: 12px;
@@ -8,12 +8,14 @@
     h2 {
         font-size: 20px;
     }
+
     .btn {
         padding: 10px 12px;
         font-size: 12px;
         border-radius: 5px;
         margin: 15px 0;
     }
+
     .container {
         width: 80%;
         margin: 0 auto;
@@ -23,47 +25,61 @@
     #header {
         width: 100%;
     }
+
     .nav-bar {
         display: block;
     }
+
     .logo h2 {
         font-size: 20px;
         font-weight: 700;
+        margin-top: 0;
+        padding-top: 20px;
     }
+
     .menu {
         display: block;
         padding-left: 0;
     }
+
     .menu li {
         margin: 12px 0;
     }
+
     .menu li a {
         padding: 0px 5px;
         font-size: 12px;
     }
+
     .header-top h1 {
         font-size: 30px;
     }
+
     .banner-img {
         width: 100%;
     }
+
     /* header section end */
 
     /* features section */
     .features-container {
         display: block;
     }
+
     .features-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
+
     .features-gallery img {
         width: 100%;
     }
+
     .features-deatils {
         height: 100%;
     }
+
     /* features section */
 
     /* expreince section */
@@ -72,24 +88,30 @@
         padding: 0;
         display: block;
     }
+
     .experience-deatils {
         width: 100%;
     }
-    .experience-img  {
+
+    .experience-img {
         width: 100%;
         margin-top: 70px;
     }
+
     .experience-img img {
         width: 100%;
     }
-    .experience-tab{
+
+    .experience-tab {
         height: 5%;
         top: -50px;
         left: -50px;
     }
+
     .experience-tab h1 {
         font-size: 20px;
     }
+
     /* expreince section */
 
     /* facts section css ---------------------- */
@@ -97,22 +119,26 @@
         padding-top: 50px;
         padding-bottom: 0;
     }
+
     .facts-items {
         display: block;
         margin-top: 20px;
         padding: 0;
     }
+
     .fact-item {
         width: 100%;
         margin: 20px 0;
         box-shadow: 0 0 10px rgb(224, 223, 223);
         border: 0;
     }
-    .fact-item:hover{
+
+    .fact-item:hover {
         border: 1px solid #FF900E;
         box-shadow: none;
-        transition: .25s;
+        transition: .50s;
     }
+
     /* facts section css ---------------------- */
 
     /* sponspors section css */
@@ -120,14 +146,46 @@
         display: block;
         margin-top: 20px;
     }
+
     .spon-companis img {
         width: 20%;
         margin: 5px 40px;
     }
+
     /* sponspors section css */
 
+    /* ontact section css  */
+    .contact-container {
+        display: block;
+        padding: 20px;
+    }
 
+    .container-banner {
+        display: none;
+    }
 
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form {
+        padding: 20px 50px;
+    }
+
+    /* ontact section css  */
+
+    /* footer  */
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-container {
+        padding: 5px 0;
+    }
+
+    /* footer  */
 
 
 
