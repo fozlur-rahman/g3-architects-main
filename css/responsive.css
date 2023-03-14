@@ -1,3 +1,50 @@
-@media only screen and (max-width: 667px){
+@media only screen and (min-width: 320px) and ( max-width: 768px) {
 
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    .btn {
+        padding: 10px 12px;
+        font-size: 12px;
+        border-radius: 5px;
+        margin: 15px 0;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* header section start */
+    #header {
+        width: 100%;
+    }
+    .nav-bar {
+        display: block;
+    }
+    .logo h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .menu {
+        display: block;
+    }
+    .menu li {
+        margin: 12px;
+    }
+    .menu li a {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .header-top h1 {
+        font-size: 30px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    /* header section end */
 }
