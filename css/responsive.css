@@ -115,7 +115,16 @@
     }
     /* facts section css ---------------------- */
 
-
+    /* sponspors section css */
+    .spon-companis {
+        display: block;
+        margin-top: 20px;
+    }
+    .spon-companis img {
+        width: 20%;
+        margin: 5px 40px;
+    }
+    /* sponspors section css */
 
 
 
