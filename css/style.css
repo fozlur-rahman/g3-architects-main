@@ -189,10 +189,11 @@ h2 {
 /* expreince section css ---------------------------------------------- */
 
 /* sponspors section css  ----------------------------------------------*/
-
+#sponsors-section {
+    margin-bottom: 100px;
+}
 .sponspors-container {
     text-align: center;
-    /* padding: ; */
 }
 
 .spon-companis {
@@ -210,31 +211,57 @@ h2 {
 /* sponspors section css  ----------------------------------------------*/
 
 /* contact section css ----------------------------------------------- */
+/* #contact-section {
+    background:#FFF4E7;
+} */
+#contact-section {
+    background:#f0efee25;
+}
 .contact-container {
     display: flex;
     justify-content: space-evenly;
     padding: 100px 0;
 }
-
+.container-banner {
+    border-right: 4px solid var(--orange);
+}
 .contact-form {
     width: 40%;
     display: flex;
     align-items: center;
+    
 }
 
 .form {
     width: 100%;
-    height: 50%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 0 50px;
     text-align: center;
+    box-shadow: 0 0 10px rgb(216, 216, 216);
+    border-radius: 8px;
 }
 
 .form input {
     /* width: 100%; */
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(216, 216, 216);
 }
 
 /* contact section css ----------------------------------------------- */
+
+/* footer section css ------------------------------------------------- */
+.footer-container{
+    background: #FFF4E7;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+}
+/* footer section css ------------------------------------------------- */
